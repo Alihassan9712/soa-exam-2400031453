@@ -1,0 +1,19 @@
+package com.klef.soa.exam.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="PodcastSubscription")
+public class PodcastSubscription {
+
+	@
+	private long id;
+	private String subscriberName;
+	
+	private String podcastTitle;
+	
+	private String startDate;
+	
+	private boolean active;
+}

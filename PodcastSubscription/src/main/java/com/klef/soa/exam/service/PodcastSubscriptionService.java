@@ -1,0 +1,16 @@
+package com.klef.soa.exam.service;
+
+import java.util.List;
+
+import com.klef.soa.exam.entity.PodcastSubscription;
+
+public interface PodcastSubscriptionService{
+	
+	PodcastSubscription addSubscriber(PodcastSubscription ps);
+	
+	List<PodcastSubscription> displayAll();
+	
+	void deleteById(Long id);
+	
+	
+}

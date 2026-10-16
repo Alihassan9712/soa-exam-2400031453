@@ -1,0 +1,13 @@
+package com.klef.soa.exam.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.klef.soa.exam.repository.PodcastSubscriptionRepository;
+
+public class PodcastSubscriptionServiceImpl implements PodcastSubscriptionService {
+	
+	@Autowired
+	private PodcastSubscriptionRepository repository
+	
+
+}
